@@ -1,0 +1,7 @@
+com/geosportfishing/backend/model/Article.class
+com/geosportfishing/backend/GeoSportfishingApplication.class
+com/geosportfishing/backend/dao/IArticleDao.class
+com/geosportfishing/backend/service/ArticleService.class
+com/geosportfishing/backend/service/IArticleService.class
+com/geosportfishing/backend/controller/ArticleController.class
+com/geosportfishing/backend/dao/ArticleDao.class
