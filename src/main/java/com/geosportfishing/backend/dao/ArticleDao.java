@@ -1,6 +1,6 @@
 package com.geosportfishing.backend.dao;
 
-import com.geosportfishing.backend.model.Article;
+import com.geosportfishing.backend.entity.Article;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 

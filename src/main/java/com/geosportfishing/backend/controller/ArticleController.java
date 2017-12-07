@@ -1,6 +1,6 @@
 package com.geosportfishing.backend.controller;
 
-import com.geosportfishing.backend.model.Article;
+import com.geosportfishing.backend.entity.Article;
 import com.geosportfishing.backend.service.IArticleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;

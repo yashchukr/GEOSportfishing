@@ -1,7 +1,7 @@
 package com.geosportfishing.backend.service;
 
 import com.geosportfishing.backend.dao.IArticleDao;
-import com.geosportfishing.backend.model.Article;
+import com.geosportfishing.backend.entity.Article;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
