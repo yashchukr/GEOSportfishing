@@ -1,4 +1,4 @@
-package com.geosportfishing.backend.model;
+package com.geosportfishing.backend.entity;
 
 import javax.persistence.*;
 import java.io.Serializable;
