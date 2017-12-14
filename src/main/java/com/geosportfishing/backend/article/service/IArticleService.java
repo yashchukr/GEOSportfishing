@@ -1,6 +1,6 @@
-package com.geosportfishing.backend.service;
+package com.geosportfishing.backend.article.service;
 
-import com.geosportfishing.backend.entity.Article;
+import com.geosportfishing.backend.article.entity.Article;
 
 import java.util.List;
 

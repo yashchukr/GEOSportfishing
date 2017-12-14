@@ -1,7 +1,7 @@
-package com.geosportfishing.backend.controller;
+package com.geosportfishing.backend.article.controller;
 
-import com.geosportfishing.backend.entity.Article;
-import com.geosportfishing.backend.service.IArticleService;
+import com.geosportfishing.backend.article.entity.Article;
+import com.geosportfishing.backend.article.service.IArticleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;

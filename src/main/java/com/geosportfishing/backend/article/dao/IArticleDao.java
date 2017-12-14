@@ -1,6 +1,6 @@
-package com.geosportfishing.backend.dao;
+package com.geosportfishing.backend.article.dao;
 
-import com.geosportfishing.backend.entity.Article;
+import com.geosportfishing.backend.article.entity.Article;
 
 import java.util.List;
 

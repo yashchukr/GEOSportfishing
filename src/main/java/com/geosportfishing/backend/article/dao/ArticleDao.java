@@ -1,13 +1,12 @@
-package com.geosportfishing.backend.dao;
+package com.geosportfishing.backend.article.dao;
 
-import com.geosportfishing.backend.entity.Article;
+import com.geosportfishing.backend.article.entity.Article;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import java.util.List;
-
 
 @Transactional
 @Repository
@@ -50,7 +49,8 @@ public class ArticleDao implements IArticleDao {
     @Override
     public boolean articleExists(String title, String category) {
         String hql = "FROM Article as atcl WHERE atcl.title = ? and atcl.category = ?";
-        int count = entityManager.createQuery(hql).setParameter(1, title)
+        int count = entityManager.createQuery(hql)
+                .setParameter(1, title)
                 .setParameter(2, category).getResultList().size();
         return count > 0 ? true : false;
     }
