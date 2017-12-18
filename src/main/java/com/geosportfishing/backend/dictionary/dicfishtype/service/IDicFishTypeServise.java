@@ -8,6 +8,8 @@ public interface IDicFishTypeServise {
 
     List<DicFishType> getAllDicFishType();
 
+    List<DicFishType> getAllDicFishTypeByKindId(int fishTypeKindId);
+
     DicFishType getDicFishTypeById(int dicFishTypeId);
 
     boolean createDicFishType(DicFishType dicFishType);

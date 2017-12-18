@@ -8,6 +8,8 @@ public interface IDicFishTypeDao {
 
     List<DicFishType> getAllDicFishType();
 
+    List<DicFishType> getAllDicFishTypeByKindId(int fishTypeKindId);
+
     DicFishType getDicFishTypeById(int fishTypeId);
 
     void createDicFishType(DicFishType dicFishType);

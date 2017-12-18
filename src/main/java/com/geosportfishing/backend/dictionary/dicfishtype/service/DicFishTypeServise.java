@@ -19,6 +19,11 @@ public class DicFishTypeServise implements IDicFishTypeServise {
     }
 
     @Override
+    public List<DicFishType> getAllDicFishTypeByKindId(int fishTypeKindId) {
+        return dicFishTypeDao.getAllDicFishTypeByKindId(fishTypeKindId);
+    }
+
+    @Override
     public DicFishType getDicFishTypeById(int dicFishTypeId) {
         DicFishType obj = dicFishTypeDao.getDicFishTypeById(dicFishTypeId);
         return obj;

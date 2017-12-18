@@ -32,6 +32,12 @@ public class DicFishTypeController {
         return new ResponseEntity<List<DicFishType>>(list, HttpStatus.OK);
     }
 
+    @GetMapping("/all-dicfishtypesbykindid")
+    public ResponseEntity<List<DicFishType>> getAllDicFishTypeByKindId(@RequestParam("id") String id) {
+        List<DicFishType> list = dicFishTypeServise.getAllDicFishTypeByKindId(Integer.parseInt(id));
+        return new ResponseEntity<List<DicFishType>>(list, HttpStatus.OK);
+    }
+
     /*
     {
         "articleId": null,

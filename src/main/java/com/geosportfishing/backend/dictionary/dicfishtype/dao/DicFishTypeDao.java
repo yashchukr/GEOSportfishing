@@ -23,6 +23,23 @@ public class DicFishTypeDao implements IDicFishTypeDao {
         return (List<DicFishType>) entityManager.createQuery(hql).getResultList();
     }
 
+    //@SuppressWarnings("unchecked")
+    @Override
+    public List<DicFishType> getAllDicFishTypeByKindId(int fishTypeKindId) {
+        String hql = "FROM DicFishType as dft WHERE dft.fishTypeKindId = ?";
+
+        return (List<DicFishType>) entityManager.createQuery(hql)
+                .setParameter(1, fishTypeKindId)
+                .getResultList();
+    }
+/*
+    @SuppressWarnings("unchecked")
+    @Override
+    public List<DicFishType> getAllDicFishType() {
+        String hql = "FROM DicFishType as dft,DicFishKind as dfk WHERE dft.fishTypeKindId = dfk.fishKindId ORDER BY dft.fishTypeId DESC";
+        return (List<DicFishType>) entityManager.createQuery(hql).getResultList();
+    }
+*/
     @Override
     public DicFishType getDicFishTypeById(int fishTypeId) {
         return entityManager.find(DicFishType.class, fishTypeId);
