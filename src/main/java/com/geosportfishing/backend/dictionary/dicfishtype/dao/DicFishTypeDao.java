@@ -53,6 +53,7 @@ public class DicFishTypeDao implements IDicFishTypeDao {
     @Override
     public void updateDicFishType(DicFishType dicFishType) {
         DicFishType dft = getDicFishTypeById(dicFishType.getFishTypeId());
+        dft.setFishTypeKindId(dft.getFishTypeKindId());
         dft.setFishTypeName(dft.getFishTypeName());
         entityManager.flush();
     }
