@@ -1,7 +1,0 @@
-/home/rostyslav/AllProjects/GEOSportfishing-backend/src/main/java/com/geosportfishing/backend/GeoSportfishingApplication.java
-/home/rostyslav/AllProjects/GEOSportfishing-backend/src/main/java/com/geosportfishing/backend/controller/ArticleController.java
-/home/rostyslav/AllProjects/GEOSportfishing-backend/src/main/java/com/geosportfishing/backend/service/ArticleService.java
-/home/rostyslav/AllProjects/GEOSportfishing-backend/src/main/java/com/geosportfishing/backend/service/IArticleService.java
-/home/rostyslav/AllProjects/GEOSportfishing-backend/src/main/java/com/geosportfishing/backend/dao/ArticleDao.java
-/home/rostyslav/AllProjects/GEOSportfishing-backend/src/main/java/com/geosportfishing/backend/model/Article.java
-/home/rostyslav/AllProjects/GEOSportfishing-backend/src/main/java/com/geosportfishing/backend/dao/IArticleDao.java

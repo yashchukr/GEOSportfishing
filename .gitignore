@@ -1,0 +1,19 @@
+
+Будет удалено .gitignore
+Будет удалено .idea/.name
+Будет удалено .idea/dataSources.local.xml
+Будет удалено .idea/dataSources/
+Будет удалено .idea/dbnavigator.xml
+Будет удалено .idea/inspectionProfiles/
+Будет удалено .idea/workspace.xml
+Будет удалено target/classes/com/geosportfishing/backend/article/
+Будет удалено target/classes/com/geosportfishing/backend/dictionary/
+Будет удалено target/classes/com/geosportfishing/backend/users/
+Будет удалено target/generated-sources/
+Будет удалено target/generated-test-sources/
+Будет удалено target/surefire-reports/
+
+*.txt
+*.md
+
+.idea
